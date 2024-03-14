@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>사과</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Slider Demo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 스타일 시트 연결 -->
 </head>
 <body>
-    <div class="container">
-        <h1>사과</h1>
-    </div>
+    <h1 id="fruit">사과</h1> <!-- 사과 텍스트를 보여주는 제목 -->
+    <input type="range" min="1" max="100" value="1" id="slider"> <!-- 1부터 100까지의 값을 선택할 수 있는 슬라이더 바 -->
+    <p id="sliderValue">1</p> <!-- 슬라이더 바의 현재 값을 보여주는 문단 -->
+
+    <script src="script.js"></script> <!-- 자바스크립트 파일 연결 -->
 </body>
 </html>

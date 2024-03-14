@@ -1,17 +1,15 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body {
+    font-family: Arial, sans-serif; /* 전체 페이지의 글꼴을 Arial 또는 sans-serif로 설정 */
+    text-align: center; /* 내용을 가운데 정렬 */
+    padding: 50px; /* 페이지 내용과 뷰포트 사이의 여백 설정 */
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+#slider {
+    width: 80%; /* 슬라이더 바의 너비를 설정 */
+    margin-top: 20px; /* 슬라이더 바 위쪽 여백 설정 */
 }
 
-h1 {
-    font-size: 3em;
-    color: #333; /* 글자색 */
+#sliderValue {
+    font-size: 24px; /* 슬라이더 값의 글꼴 크기 설정 */
+    margin-top: 20px; /* 슬라이더 값 위쪽 여백 설정 */
 }
